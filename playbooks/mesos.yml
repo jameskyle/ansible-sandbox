@@ -1,0 +1,7 @@
+---
+# file: site.yml
+- hosts: dockers
+  roles:
+    - common
+    - docker
+    - mesos
