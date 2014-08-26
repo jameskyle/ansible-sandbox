@@ -15,3 +15,8 @@ role "kubernetes",
 
 role "common",
     github: "jameskyle/ansible-common"
+
+
+role "mesos",
+        #github: "jameskyle/ansible-mesos"
+    path: "../roles/ansible-mesos"
