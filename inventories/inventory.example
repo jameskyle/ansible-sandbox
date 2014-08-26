@@ -1,0 +1,19 @@
+[docker-masters]
+dock1 ansible_ssh_host=10.252.19.10 mgmt_addr=10.252.19.10 dns1=8.8.8.8 hostname=dock1
+
+[docker-slaves]
+dock2 ansible_ssh_host=10.252.19.11 mgmt_addr=10.252.19.11 hostname=dock2
+dock3 ansible_ssh_host=10.252.19.12 mgmt_addr=10.252.19.12 hostname=dock3
+dock4 ansible_ssh_host=10.252.19.13 mgmt_addr=10.252.19.13 hostname=dock4
+dock5 ansible_ssh_host=10.252.19.14 mgmt_addr=10.252.19.14 hostname=dock5
+
+[dockers:children]
+docker-masters
+docker-slaves
+
+[dockers:vars]
+management_interface=em1
+gateway=10.252.19.1
+dns1=10.252.19.10
+domain=pao19.tfoundry.com
+prefix=24

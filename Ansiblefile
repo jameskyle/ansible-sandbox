@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site "https://galaxy.ansible.com/api/v1"
+
+role "jkyle",
+    github: "jameskyle/ansible-jkyle"
+
+role "docker",
+    github: "jameskyle/ansible-docker"
+    #path: "../roles/ansible-docker"
+role "kubernetes",
+    github: "jameskyle/ansible-kubernetes"
+    #path: "../roles/ansible-kubernetes"
+
+role "common",
+    github: "jameskyle/ansible-common"

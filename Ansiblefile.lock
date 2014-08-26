@@ -1,0 +1,30 @@
+GIT
+  remote: https://github.com/jameskyle/ansible-common
+  ref: master
+  sha: e96dbb567290524b46c52963a623528c7e1ee863
+  specs:
+    common (0.0.0)
+
+GIT
+  remote: https://github.com/jameskyle/ansible-jkyle
+  ref: master
+  sha: a39b141e577bd091e619d752671105102213d9f5
+  specs:
+    jkyle (0.0.0)
+
+PATH
+  remote: ../roles/ansible-docker
+  specs:
+    docker (0.0.0)
+
+PATH
+  remote: ../roles/ansible-kubernetes
+  specs:
+    kubernetes (0.0.0)
+
+DEPENDENCIES
+  common (>= 0)
+  docker (>= 0)
+  jkyle (>= 0)
+  kubernetes (>= 0)
+
