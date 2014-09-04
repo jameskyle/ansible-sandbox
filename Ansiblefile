@@ -3,15 +3,12 @@
 
 site "https://galaxy.ansible.com/api/v1"
 
-role "jkyle",
-    github: "jameskyle/ansible-jkyle"
+role "gentoo",     github: "jameskyle/ansible-gentoo"
 
-role "docker",
-    github: "jameskyle/ansible-docker"
-    #path: "../roles/ansible-docker"
-role "kubernetes",
-    github: "jameskyle/ansible-kubernetes"
-    #path: "../roles/ansible-kubernetes"
+role "jkyle",      github: "jameskyle/ansible-jkyle"
 
-role "common",
-    github: "jameskyle/ansible-common"
+role "docker",     github: "jameskyle/ansible-docker"
+
+role "kubernetes", github: "jameskyle/ansible-kubernetes"
+
+role "common",     github: "jameskyle/ansible-common"
