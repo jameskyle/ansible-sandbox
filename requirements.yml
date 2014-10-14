@@ -1,0 +1,10 @@
+- src: https://github.com/jameskyle/ansible-gentoo.git
+  name: gentoo
+- src: https://github.com/jameskyle/ansible-jkyle.git
+  name: jkyle
+- src: https://github.com/jameskyle/ansible-docker.git
+  name: docker
+- src: https://github.com/jameskyle/ansible-kubernetes.git
+  name: kubernetes
+- src: https://github.com/jameskyle/ansible-common.git
+  name: common
